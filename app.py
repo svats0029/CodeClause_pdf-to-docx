@@ -16,7 +16,7 @@ def add_file():
 
 
 def convert_file(file_path):
-    save_location = r"C:\Users\Dell\Desktop\pdf to word\ca.docx"
+    save_location = r"C:\Users\Dell\Desktop\pdf to word\ps.docx"
     cv = Converter(file_path)
     cv.convert(save_location, start=0, end=None)
     cv.close()
